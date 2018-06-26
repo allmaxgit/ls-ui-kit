@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
 import { Timeline, Icon } from 'antd';
+import TimelineCircle from '../../../../src/components/TimelineCircle';
 
 class BigButTimeline extends Component {
   render() { 
     return (
       <section className="example">
         <h3 className="ex-title">Big But Timeline</h3>
-
+        <TimelineCircle text="asdas" />
         {/* <Timeline>
           <Timeline.Item>Create a services site 2015-09-01</Timeline.Item>
           <Timeline.Item>Solve initial network problems 2015-09-01</Timeline.Item>
@@ -17,5 +18,5 @@ class BigButTimeline extends Component {
     );
   }
 }
- 
+
 export default BigButTimeline;
